@@ -1,4 +1,4 @@
-from DNSServer import *
+from DNS_Server_test.DNS_v1.DNSServer import *
 import logging
 
 # Настройка логирования

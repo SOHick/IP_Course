@@ -1,5 +1,5 @@
-from DNSCache import *
-from DNSProtocol import *
+from DNS_Server_test.DNS_v1.DNSCache import *
+from DNS_Server_test.DNS_v1.DNSProtocol import *
 
 
 

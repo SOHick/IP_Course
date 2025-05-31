@@ -1,6 +1,6 @@
 import time
-from DNSResolver import *
-from DNSProtocol import *
+from DNS_Server_test.DNS_v1.DNSResolver import *
+from DNS_Server_test.DNS_v1.DNSProtocol import *
 
 logger = logging.getLogger(__name__)
 
