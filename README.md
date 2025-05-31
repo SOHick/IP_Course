@@ -95,7 +95,6 @@ print_cache()
 ├── dns_server.log   # Лог операций
 └── dns_cache.json   # Файл кеша (в формате json)
 ```
-
 ## Особенности работы
 1. Сервер автоматически создает `dns_cache.pkl` при первом запуске
 2. Для первой работы сервера, удалить 3 файла: `dns_server.log`, `dns_cache.pkl`, `dns_cache.json`
