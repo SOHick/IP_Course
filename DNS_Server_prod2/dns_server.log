@@ -1,0 +1,18 @@
+2025-06-01 04:12:55,479 - WARNING - Could not load cache: [Errno 2] No such file or directory: 'dns_cache.pkl'
+2025-06-01 04:12:55,483 - INFO - DNS server started on port 1025
+2025-06-01 04:13:13,559 - INFO - Received query from 127.0.0.1:59759 for dzen.ru.
+2025-06-01 04:13:13,559 - INFO - Querying upstream DNS 8.8.8.8 for dzen.ru.
+2025-06-01 04:13:13,617 - INFO - Received response from upstream for dzen.ru.
+2025-06-01 04:13:13,618 - INFO - Sent response to 127.0.0.1:59759
+2025-06-01 04:13:21,605 - INFO - Received signal 2, shutting down...
+2025-06-01 04:13:22,623 - INFO - DNS server stopped, cache saved
+2025-06-01 04:13:23,632 - INFO - DNS server stopped, cache saved
+2025-06-01 04:13:50,359 - INFO - Cache loaded from dns_cache.pkl, expired records removed
+2025-06-01 04:13:50,360 - INFO - DNS server started on port 1025
+2025-06-01 04:14:00,240 - INFO - Received query from 127.0.0.1:64378 for dzen.ru.
+2025-06-01 04:14:00,240 - INFO - Querying upstream DNS 8.8.8.8 for dzen.ru.
+2025-06-01 04:14:00,294 - INFO - Received response from upstream for dzen.ru.
+2025-06-01 04:14:00,295 - INFO - Sent response to 127.0.0.1:64378
+2025-06-01 04:14:05,275 - INFO - Received signal 2, shutting down...
+2025-06-01 04:14:06,287 - INFO - DNS server stopped, cache saved
+2025-06-01 04:14:07,292 - INFO - DNS server stopped, cache saved
