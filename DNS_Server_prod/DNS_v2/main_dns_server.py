@@ -1,4 +1,4 @@
-from DNSServer import *
+from DNS_Server_prod.DNS_v2.DNSServer import *
 
 # Настройка логирования
 logging.basicConfig(
@@ -12,5 +12,5 @@ logging.basicConfig(
 logger = logging.getLogger('DNSServer')
 
 if __name__ == '__main__':
-    server = DNSServer(port=1025)
+    server = DNSServer(port=53)
     server.start()

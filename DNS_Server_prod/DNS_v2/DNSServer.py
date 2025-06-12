@@ -7,11 +7,11 @@ import dns.query
 import dns.rrset
 import dns.rdatatype
 import dns.rdataclass
-from DNSCashe import *
+from DNS_Server_prod.DNS_v2.DNSCashe import *
 logger = logging.getLogger(__name__)
 
 class DNSServer:
-    def __init__(self, port=1025, upstream_dns='8.8.8.8'):
+    def __init__(self, port=53, upstream_dns='8.8.8.8'):
         self.port = port
         self.upstream_dns = upstream_dns
         self.cache = DNSCache()
@@ -28,7 +28,7 @@ class DNSServer:
         self.stop()
         sys.exit(0)
 
-    def cleanup_loop(self):  # Обратите внимание на маленькую 'c'
+    def cleanup_loop(self):
         """Периодически очищает кэш от просроченных записей"""
         while self.running:
             time.sleep(60)
@@ -113,7 +113,7 @@ class DNSServer:
 
         # Создаем UDP сокет
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.sock.bind(('0.0.0.0', self.port))
+        self.sock.bind(('127.0.0.1', self.port))
 
         self.running = True
         logging.info(f"DNS server started on port {self.port}")

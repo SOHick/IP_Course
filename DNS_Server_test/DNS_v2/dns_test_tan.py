@@ -11,6 +11,7 @@ import dns.query
 import dns.rrset
 import dns.rdatatype
 import dns.rdataclass
+import dns.flags
 
 # Настройка логгирования
 logging.basicConfig(
@@ -207,11 +208,8 @@ class DNSCache:
 
 
 
-
-# ... остальные импорты ...
-
 class DNSServer:
-    def __init__(self, port=1025, upstream_dns='8.8.8.8'):
+    def __init__(self, port=53, upstream_dns='8.8.8.8'):
         self.port = port
         self.upstream_dns = upstream_dns
         self.cache = DNSCache()
@@ -313,7 +311,7 @@ class DNSServer:
 
         # Создаем UDP сокет
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self.sock.bind(('0.0.0.0', self.port))
+        self.sock.bind(('192.168.96.1', self.port))
 
         self.running = True
         logging.info(f"DNS server started on port {self.port}")
@@ -342,5 +340,5 @@ class DNSServer:
 
 
 if __name__ == '__main__':
-    server = DNSServer(port=1025)
+    server = DNSServer(port=53)
     server.start()

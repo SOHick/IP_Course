@@ -1,0 +1,26 @@
+2025-06-12 14:09:06,512 - INFO - No cache file found, starting fresh
+2025-06-12 14:09:06,516 - INFO - DNS proxy started on 192.168.96.1:53
+2025-06-12 14:09:06,517 - INFO - Using upstream DNS: 8.8.8.8:53
+2025-06-12 14:09:23,199 - INFO - Processing query: vk.com type 1
+2025-06-12 14:09:23,199 - INFO - Forwarding query for vk.com
+2025-06-12 14:09:23,245 - INFO - Processing query: vk.com type 28
+2025-06-12 14:09:23,246 - INFO - Forwarding query for vk.com
+2025-06-12 14:09:33,347 - INFO - Shutting down server...
+2025-06-12 14:09:33,351 - INFO - Cache saved to dns_cache.pkl
+2025-06-12 14:09:33,355 - INFO - Cache saved to dns_cache.pkl
+2025-06-12 14:09:33,356 - INFO - Server stopped
+2025-06-12 14:10:02,283 - INFO - Cache loaded from dns_cache.pkl
+2025-06-12 14:10:02,287 - INFO - DNS proxy started on 192.168.96.1:53
+2025-06-12 14:10:02,287 - INFO - Using upstream DNS: 8.8.8.8:53
+2025-06-12 14:10:09,818 - INFO - Processing query: vk.com type 1
+2025-06-12 14:10:09,819 - INFO - Using cached response for vk.com
+2025-06-12 14:10:09,819 - INFO - Processing query: vk.com type 28
+2025-06-12 14:10:09,820 - INFO - Forwarding query for vk.com
+2025-06-12 14:10:11,828 - WARNING - Upstream DNS timeout
+2025-06-12 14:10:12,319 - INFO - Processing query: vk.com type 28
+2025-06-12 14:10:12,319 - INFO - Forwarding query for vk.com
+2025-06-12 14:10:14,338 - WARNING - Upstream DNS timeout
+2025-06-12 14:11:38,038 - INFO - Shutting down server...
+2025-06-12 14:11:38,049 - INFO - Cache saved to dns_cache.pkl
+2025-06-12 14:11:38,051 - INFO - Cache saved to dns_cache.pkl
+2025-06-12 14:11:38,051 - INFO - Server stopped
