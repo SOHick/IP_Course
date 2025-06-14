@@ -1,0 +1,42 @@
+2025-06-14 19:06:23,900 - WARNING - Cache load failed (new cache will be created): [Errno 2] No such file or directory: 'dns_cache.pkl'
+2025-06-14 19:06:23,903 - INFO - DNS server started on port 53
+2025-06-14 19:06:25,861 - INFO - Query from 127.0.0.1:55292 for youtube.com. (A)
+2025-06-14 19:06:26,019 - INFO - Forwarding query for youtube.com. to 8.8.8.8
+2025-06-14 19:06:26,644 - INFO - Query from 127.0.0.1:55294 for youtube.com. (AAAA)
+2025-06-14 19:06:26,756 - INFO - Forwarding query for youtube.com. to 8.8.8.8
+2025-06-14 19:06:29,671 - INFO - Received signal 2, shutting down gracefully...
+2025-06-14 19:06:29,672 - INFO - Shutting down server...
+2025-06-14 19:06:29,675 - INFO - Cache saved to dns_cache.pkl
+2025-06-14 19:06:29,675 - INFO - DNS server stopped gracefully
+2025-06-14 19:07:06,857 - INFO - Cache loaded from dns_cache.pkl
+2025-06-14 19:07:06,862 - INFO - DNS server started on port 53
+2025-06-14 19:07:09,948 - INFO - Query from 127.0.0.1:64203 for youtube.com. (A)
+2025-06-14 19:07:09,952 - INFO - Serving from cache: youtube.com.
+2025-06-14 19:07:09,954 - INFO - Query from 127.0.0.1:64204 for youtube.com. (AAAA)
+2025-06-14 19:07:09,957 - INFO - Serving from cache: youtube.com.
+2025-06-14 19:07:35,058 - INFO - Query from 127.0.0.1:59388 for youtube.com. (A)
+2025-06-14 19:07:35,059 - INFO - Serving from cache: youtube.com.
+2025-06-14 19:07:35,060 - INFO - Query from 127.0.0.1:59389 for youtube.com. (AAAA)
+2025-06-14 19:07:35,061 - INFO - Serving from cache: youtube.com.
+2025-06-14 19:07:39,736 - INFO - Query from 127.0.0.1:64905 for clear. (A)
+2025-06-14 19:07:41,740 - INFO - Query from 127.0.0.1:63617 for clear. (AAAA)
+2025-06-14 19:07:42,747 - WARNING - Internet check failed: timed out
+2025-06-14 19:07:42,747 - WARNING - No internet and no cache for clear.
+2025-06-14 19:07:42,750 - ERROR - Socket error: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-06-14 19:07:42,750 - INFO - Shutting down server...
+2025-06-14 19:07:42,752 - INFO - Cache saved to dns_cache.pkl
+2025-06-14 19:07:42,753 - INFO - DNS server stopped gracefully
+2025-06-14 19:07:53,467 - INFO - Cache loaded from dns_cache.pkl
+2025-06-14 19:07:53,469 - INFO - DNS server started on port 53
+2025-06-14 19:08:12,428 - INFO - Query from 127.0.0.1:56602 for youtube.com. (A)
+2025-06-14 19:08:12,431 - INFO - Serving from cache: youtube.com.
+2025-06-14 19:08:12,434 - INFO - Query from 127.0.0.1:56603 for youtube.com. (AAAA)
+2025-06-14 19:08:12,441 - INFO - Serving from cache: youtube.com.
+2025-06-14 19:08:21,589 - INFO - Query from 127.0.0.1:50991 for vk.com. (A)
+2025-06-14 19:08:23,592 - INFO - Query from 127.0.0.1:59505 for vk.com. (AAAA)
+2025-06-14 19:08:24,599 - WARNING - Internet check failed: timed out
+2025-06-14 19:08:24,600 - WARNING - No internet and no cache for vk.com.
+2025-06-14 19:08:24,602 - ERROR - Socket error: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+2025-06-14 19:08:24,603 - INFO - Shutting down server...
+2025-06-14 19:08:24,604 - INFO - Cache saved to dns_cache.pkl
+2025-06-14 19:08:24,604 - INFO - DNS server stopped gracefully
